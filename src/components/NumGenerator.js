@@ -1,7 +1,7 @@
 import React from 'react'
 
 const NumberGenerator = () => {
-  const gimmeANumber = 9
+  const gimmeANumber = 200
 
   const numArr = []
   for (let x = 1; x <= gimmeANumber; x++) {

@@ -1,0 +1,24 @@
+.num-selector-wrapper {
+  position: relative;
+  margin: 0 auto;
+  background: #eee;
+  width: 65rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.drag-icon {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: black;
+  border-radius: 50%;
+  transform: translateX(-1rem);
+}
+
+.drag-line {
+  position: absolute;
+  border: 2px solid black;
+  width: 100%;
+}

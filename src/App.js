@@ -1,11 +1,13 @@
 import React from 'react'
-import NumberGenerator from './NumberGenerator'
+import NumGenerator from './components/NumGenerator'
+// import NumSelector from './components/NumSelector'
 
 const App = () => {
   return (
     <div>
       <h1>Find the nines</h1>
-      <NumberGenerator />
+      <NumGenerator />
+      {/* <NumSelector /> */}
     </div>
   )
 }
