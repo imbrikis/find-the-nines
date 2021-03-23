@@ -1,18 +1,7 @@
 import React from 'react'
+import numArr from '../data/NumGenerator'
 
-const NumberGenerator = ({ circleTheNines }) => {
-  const gimmeANumber = 200
-
-  const numArr = []
-  for (let x = 1; x <= gimmeANumber; x++) {
-    numArr.push(Math.floor(Math.random() * 9) + 1)
-  }
-
-  numArr.splice(
-    Math.pow(Math.floor(Math.sqrt(numArr.length)), 2),
-    numArr.length
-  )
-
+const NumberGrid = ({ circleTheNines }) => {
   const getStyles = (num) => {
     let styleNums = ''
     if (circleTheNines) {
@@ -42,4 +31,4 @@ const NumberGenerator = ({ circleTheNines }) => {
   )
 }
 
-export default NumberGenerator
+export default NumberGrid
