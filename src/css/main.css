@@ -38,3 +38,20 @@ h6 {
 /* ----------------- 
 MAIN STYLING 
 ----------------- */
+
+.app-container {
+  text-align: center;
+}
+
+.app-container h1:first-child {
+  margin-top: 4rem;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  margin: 4rem 0 2rem 0;
+}

@@ -4,8 +4,10 @@ import NumGenerator from './components/NumGenerator'
 
 const App = () => {
   return (
-    <div>
-      <h1>Find the nines</h1>
+    <div className='app-container'>
+      <h1>Why is data visualization so cool?</h1>
+      <h1>Let's find out!</h1>
+      <h2>Find the nines</h2>
       <NumGenerator />
       {/* <NumSelector /> */}
     </div>
