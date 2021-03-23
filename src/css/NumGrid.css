@@ -1,4 +1,4 @@
-.num-gen-wrapper {
+.num-grid-wrapper {
   width: 71rem;
   height: 71rem;
   margin: 0 auto;
@@ -17,4 +17,14 @@
 
 .num-circled {
   border: 2px solid red;
+}
+
+@media (max-width: 400px) {
+  .num-grid-wrapper {
+    width: 28rem;
+    height: 28rem;
+  }
+  .num-item {
+    font-size: 1rem;
+  }
 }

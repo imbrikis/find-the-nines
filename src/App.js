@@ -1,5 +1,5 @@
 import React from 'react'
-import numArr from './data/NumGenerator'
+import { numArr, data } from './data/NumGenerator'
 import NumGrid from './components/NumGrid'
 // import NumSelector from './components/NumSelector'
 import NumGraph from './components/NumGraph'
@@ -19,7 +19,7 @@ const App = () => {
         We can do better... with{' '}
         <span className='i-400'>Data Visualization</span>!
       </h2>
-      <NumGraph data={numArr} />
+      <NumGraph data={data} />
     </div>
   )
 }

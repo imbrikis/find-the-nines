@@ -23,7 +23,7 @@ const NumberGrid = ({ circleTheNines, numArr }) => {
 
   return (
     <div
-      className='num-gen-wrapper'
+      className='num-grid-wrapper'
       style={{
         gridTemplateColumns: `repeat(${tableRowsAndColumns}, 1fr)`,
         gridTemplateRows: `repeat(${tableRowsAndColumns}, 1fr)`,
