@@ -19,8 +19,14 @@
   fill: rgb(95, 95, 255);
 }
 
+@media (max-width: 600px) {
+  .num-graph {
+    height: 25rem;
+  }
+}
+
 @media (max-width: 400px) {
   .num-graph {
-    transform: scale(0.5);
+    height: 17rem;
   }
 }

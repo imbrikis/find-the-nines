@@ -16,8 +16,9 @@ const App = () => {
       <NumGrid numArr={numArr} circleTheNines />
       <h2 className='mt-12'>That still seems to take a while</h2>
       <h2 className='mb-6'>
-        We can do better... with{' '}
-        <span className='i-400'>Data Visualization</span>!
+        but we can do better with...
+        <br />
+        <span className='i-400'>Data Visualization!!!</span>
       </h2>
       <NumGraph data={data} />
     </div>

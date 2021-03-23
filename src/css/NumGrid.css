@@ -19,12 +19,22 @@
   border: 2px solid red;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .num-grid-wrapper {
-    width: 28rem;
-    height: 28rem;
+    width: 38rem;
+    height: 38rem;
   }
   .num-item {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .num-grid-wrapper {
+    width: 26rem;
+    height: 26rem;
+  }
+  .num-item {
+    font-size: 0.9rem;
   }
 }
