@@ -1,7 +1,6 @@
 import React from 'react'
-import numArr from '../data/NumGenerator'
 
-const NumberGrid = ({ circleTheNines }) => {
+const NumberGrid = ({ circleTheNines, numArr }) => {
   const getStyles = (num) => {
     let styleNums = ''
     if (circleTheNines) {
@@ -14,8 +13,12 @@ const NumberGrid = ({ circleTheNines }) => {
 
   const tableRowsAndColumns = Math.sqrt(numArr.length)
 
-  const renderedItems = numArr.map((num) => {
-    return <div className={getStyles(num)}>{num}</div>
+  const renderedItems = numArr.map((num, i) => {
+    return (
+      <div className={getStyles(num)} key={i}>
+        {num}
+      </div>
+    )
   })
 
   return (
